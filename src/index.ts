@@ -9,7 +9,7 @@ export const pluginExample = (
   options: PluginExampleOptions = {},
 ): RsbuildPlugin => ({
   name: 'plugin-example',
-
+  pre: ['plugin-less'],
   setup() {
     console.log('Hello Rsbuild!', options);
   },
