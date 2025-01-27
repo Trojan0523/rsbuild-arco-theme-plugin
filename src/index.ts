@@ -17,7 +17,7 @@ export const pluginExample = (
 ): RsbuildPlugin => ({
   name: 'rsbuild:arco-theme-plugin-vue',
   pre: ['rsbuild:less'],
-  setup (api) {
+  setup(api) {
     console.log('Hello Rsbuild!', options, api.context);
   },
 });
