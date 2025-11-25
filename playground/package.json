@@ -7,7 +7,7 @@
     "build": "npx rsbuild build"
   },
   "volta": {
-    "node": "22.13.1"
+    "node": "22.21.1"
   },
   "dependencies": {
     "src": "link:../src"
